@@ -5,7 +5,7 @@ html, body {
 
 body {
 	text-align: center;
-	background-color: #EA4630;
+	background-color: #1D3E5A;
 	background-image: url("christmasbackground.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -38,4 +38,10 @@ body {
 
 .timeunit {
 	font-size: 45px;
+}
+
+@media (max-width: 700px) { 
+  	body{
+  		background-position: bottom left;
+  	}
 }
