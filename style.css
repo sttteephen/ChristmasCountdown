@@ -10,33 +10,27 @@ body {
 }
 
 #title {
-	color: #146B3A;
-	font-size: 30px;
-	font-family: 'Henny Penny', cursive;
+	color: white;
+	font-size: 40px;
+	font-family: 'Grandstander', cursive;
+	text-shadow: 4px 4px 2px black;
 }
 
 #countdown {
-	overflow-x: auto;
-	margin-top: 200px;
-	font-family: arial;
-	width: 40%;
-	border-radius: 20px; 
-	padding: 10px 10px 10px 10px;
+	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: #F8B229;
-	display: block;
-	text-align: center;
+	border-radius: 30px;
+	color: white;
+	font-family: 'Grandstander', cursive;
+	text-shadow: 2px 2px black;
+	font-size: 60px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-auto-rows: auto;
+	padding: 10px;
 }
 
-
-table {
-	font-size: 35px;
-	display: inline;
-}
-
-td {
-	text-align: center;
-  	border: 1px solid;
-  	padding: 0.5rem;
+.timeunit {
+	font-size: 45px;
 }
