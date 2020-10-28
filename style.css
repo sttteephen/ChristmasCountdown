@@ -61,6 +61,7 @@ body {
   		grid-template-columns: auto auto;
   		grid-auto-rows: 90px;
 		grid-row-gap: 20px;
+		grid-column-gap: 30px;
   		width: 50%;
   		font-size: 80px;
   	}
