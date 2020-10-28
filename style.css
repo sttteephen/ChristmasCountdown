@@ -23,19 +23,21 @@ body {
 }
 
 #countdown {
+	color: #BB2528;
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 	text-shadow: 3px 3px black;
-	font-size: 80px;
+	font-size: 90px;
 
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	grid-auto-rows: auto;
-	grid-row-gap: 0px;
+	grid-auto-rows: 125px;
+	grid-row-gap: 10px;
 }
 
 .timeunit {
+	color: #F8B229;
 	font-size: 45px;
 }
 
@@ -51,8 +53,50 @@ body {
   	}
 
   	#countdown {
-  		width: 90%;
-  		font-size: 60px;
+  		grid-template-areas: 
+  		"daysleft hoursleft"
+  		"dayslable hourslable"
+  		"minsleft secsleft"
+  		"minslable secslable";
+  		grid-template-columns: auto auto;
+  		grid-auto-rows: 90px;
+		grid-row-gap: 20px;
+  		width: 50%;
+  		font-size: 80px;
+  	}
+
+  	#days {
+  		grid-area: daysleft;
+  		width: auto;
+  	}
+
+  	#hours {
+  		grid-area: hoursleft;
+  		width: auto;
+  	}
+
+  	#dayslbl {
+  		grid-area: dayslable;
+  	}
+
+  	#hourslbl {
+  		grid-area: hourslable;
+  	}
+
+  	#minutes {
+  		grid-area: minsleft;
+  	}
+
+  	#seconds {
+  		grid-area: secsleft;
+  	}
+
+  	#minslbl {
+  		grid-area: minslable;
+  	}
+
+  	#secslbl {
+  		grid-area: secslable;
   	}
 
   	.timeunit {
