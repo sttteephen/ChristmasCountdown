@@ -4,7 +4,7 @@ function countdown() {
 	var month = now.getMonth()
 	var minute = now.getMinutes()
 
-	if (true)//(minute == 40)//(date == 25 && month == 11)
+	if (date == 25 && month == 11)
 	{
 		var x = document.getElementById("myMusic"); 
   		x.play(); 
