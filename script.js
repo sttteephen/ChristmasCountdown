@@ -3,6 +3,7 @@ function countdown() {
 	var christmasDate = new Date(now.getFullYear(), 11, 25);
 
 	var currentTime = now.getTime();
+
 	var christmasTime = christmasDate.getTime();
 
 	var remTime = christmasTime - currentTime;
@@ -28,4 +29,16 @@ function countdown() {
 	setTimeout(countdown, 1000);
 }
 
-countdown();
+var now = new Date();
+//var christmasDate = new Date(now.getFullYear(), 11, 25);
+var date = now.getDate()
+var month = now.getMonth()
+
+if (date == 25 && month == 11)
+{
+	document.getElementById("chrimbo_suprise").style.visibility= "visible" ;
+}
+else
+{
+	countdown();
+}

@@ -15,6 +15,34 @@ body {
 	background-attachment: fixed;
 }
 
+.fig {
+  font-size: 40px;
+  text-shadow: 4px 4px 2px black;
+}
+
+h2 {
+  font-size: 80px;
+  line-height: 100%;
+  text-shadow: 4px 4px 2px black;
+}
+
+#dogs {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.dog_img {
+  width: 35%;
+  border-radius: 20px;
+}
+
+#chrimbo_suprise {
+  visibility: hidden;
+}
+
 #title {
 	margin-top: 150px;
 	font-size: 40px;
